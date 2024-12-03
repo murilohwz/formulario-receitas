@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="forms.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Receitas</title>
+</head>
+
+<body>
+    <form action="enviado.html">
+        <label for="nome"> Nome:</label>
+        <input type="text" name="nome" id="nome" required="required" autofocus><br>
+
+
+        <label for="Tipo">Tipo:</label>
+        <input type="tipo" name="tipo" id="tipo" placeholder=><br>
+
+
+        <label for="ingredientes"> ingredientes:</label>
+        <input type="ingredientes" name="ingredientes" id="ingredientes required><br>
+
+
+        <label for="tempo de preparo"> Tempo de Preparo</label>
+        <input type="tempo" name="tempo de preparo" required><br>
+
+
+                <label for="foto"> Foto:</label>
+                <input type="file" name="foto" id="foto" required><br>
+
+
+                                        <label>Informacoes adicionais:</label>
+                                        <textarea name="Informacoes" rows="8" cols="25" maxlength="100" required
+                                            placeholder="Escreva informacoes adicionais que julgar importante."></textarea>
+                                        <br>
+                                        <input type="submit" name="enviar" value="Enviar" id="enviar">
+
+                                        <p>
+                                            <input  type="submit" value="Enviar(Simulacao)" id="enviar">
+                                        </p>
+
+
+    </form>
+</body>
+
+</html>
